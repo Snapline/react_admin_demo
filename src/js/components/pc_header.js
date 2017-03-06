@@ -1,7 +1,7 @@
 import React from 'react'
 import { Row, Col } from 'antd';
-import { Menu, Icon, Tabs, message, Form, Input, Button, CheckBox, Modal} from 'antd';
-import {Link} from 'react-router'
+import { Menu, Icon, Tabs, message, Form, Input, Button, CheckBox, Modal } from 'antd';
+import { Router, Route, browserHistory, Link } from 'react-router'
 
 const FormItem = Form.Item;
 const TabPane = Tabs.TabPane;
