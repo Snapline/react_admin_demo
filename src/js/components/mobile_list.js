@@ -27,7 +27,7 @@ export default class MobileList extends React.Component{
 		news.map((newsItem,index)=>(
 
 			<section key={index} className="m_article list-item special_section clearfix">
-				<Link to={`details/${newsItem.uniquekey}`} target="_blank">
+				<Link to={`details/${newsItem.uniquekey}`}>
 					<div className="m_article_img">
 						<img src={newsItem.thumbnail_pic_s} alt={newsItem.title} />
 					</div>
